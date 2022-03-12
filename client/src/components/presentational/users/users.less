@@ -1,0 +1,60 @@
+.view .horizontalContainer {
+  margin: 50px auto 50px auto;
+
+}
+
+.horizontalContainer > * {
+  margin-right: 40px;
+}
+
+.horizontalContainer > button {
+  border: 1px solid darkblue;
+  border-color: #646464;
+  background: white;
+  height: 30px;
+  width: 120px;
+}
+
+table {
+  --cell-height: 66px;
+  display: flex;
+  flex-direction: column;
+
+  height: 100%;
+  overflow-y: hidden;
+}
+
+.css-2b097c-container {
+  width: 400px;
+}
+
+th {
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  flex-grow: 0;
+  height: 40px;
+  box-sizing: border-box;
+  padding: 8px;
+  > span {
+    margin-left: 8px;
+  }
+}
+
+.row > tr {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid cadetblue;
+  height: var(--cell-height);
+  width: 100%;
+  align-items: center;
+}
+
+
+tbody {
+  overflow-y: auto;
+  height: 100%;
+  padding: 60px;
+  width: 80%;
+  background: white;
+}

@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "typeRoots": [
+      "./src/typings/react-redux.d.ts"
+    ],
+    "baseUrl": "./src",
+    "outDir": "./build/",
+    "lib": [
+      "es2017",
+      "dom",
+      "dom.iterable",
+      "scripthost"
+    ],
+    "sourceMap": true,
+    "allowJs": true,
+    "jsx": "react",
+    "target": "es6",
+    "module": "commonjs",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true
+  },
+  "include": [
+    "./src/**/*",
+    "./src/typings/**/*.d.ts"
+  ]
+}
