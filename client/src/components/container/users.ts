@@ -15,13 +15,10 @@ interface Prop {
 
 const filterByCountry = (filterValue) =>
     (users: []) => {
-
         if (users !== undefined) {
-            debugger
             return filterValue.filteredByCountries == undefined ?
                 users :
                 users.filter((item: any) => {
-                    debugger
                     return item.name == filterValue.filteredByCountries.value
                 })
         }
